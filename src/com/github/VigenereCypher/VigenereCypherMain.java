@@ -56,7 +56,7 @@ public class VigenereCypherMain {
 				System.out.println("Use -e for encryption or -d for decryption");
 				System.exit(0);
 			}
-			VigenereCypher vc = new VigenereCypher(cipherMode, cipherKey);
+			VigenereCypherMain vc = new VigenereCypherMain(cipherMode, cipherKey);
 		}
 	}
 
